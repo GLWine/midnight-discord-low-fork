@@ -18,7 +18,7 @@ body {
     --font: 'figtree';
 
     /* sizes */
-    --gap: 12px; /* spacing between panels */
+    --gap: 6px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
 
     /* animation/transition options */
@@ -31,11 +31,11 @@ body {
     --custom-app-top-bar-height: 32px; /* height of the titlebar/top bar (default is 36px)*/
 
     /* window controls */
-    --custom-window-controls: on; /* turn off to use discord default window controls */
+    --custom-window-controls: off; /* turn off to use discord default window controls */
     --window-control-size: 14px; /* size of custom window controls */
 
     /* dms button icon options */
-    --dms-icon: on; /* set to default to use discord icon, on to use custom icon, off to disable completely */
+    --dms-icon: default; /* set to default to use discord icon, on to use custom icon, off to disable completely */
     --dms-icon-svg-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
     --dms-icon-svg-size: 90%; /* size of the svg (css mask-size) */
     --dms-icon-color-before: var(--icon-secondary); /* normal icon color */
@@ -70,7 +70,7 @@ body {
 
 /* color options */
 :root {
-    --colors: on; /* turn off to use discord default colors */
+    --colors: off; /* turn off to use discord default colors */
 
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
